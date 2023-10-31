@@ -27,14 +27,14 @@
 // (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
-#include "test/gtest-typed-test_test.h"
+#include "googletest/test/gtest-typed-test_test.h"
 
 #include <set>
 #include <string>
 #include <type_traits>
 #include <vector>
 
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest.h"
 
 GTEST_DISABLE_MSC_WARNINGS_PUSH_(4127 /* conditional expression is constant */)
 

@@ -33,9 +33,9 @@
 
 #include <ostream>
 
-#include "gmock/gmock.h"
-#include "gtest/gtest-spi.h"
-#include "gtest/gtest.h"
+#include "googlemock/include/gmock/gmock.h"
+#include "googletest/include/gtest/gtest-spi.h"
+#include "googletest/include/gtest/gtest.h"
 
 namespace {
 

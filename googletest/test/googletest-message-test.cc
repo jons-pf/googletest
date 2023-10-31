@@ -33,8 +33,8 @@
 #include <sstream>
 #include <string>
 
-#include "gtest/gtest-message.h"
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest-message.h"
+#include "googletest/include/gtest/gtest.h"
 
 #ifdef GTEST_HAS_ABSL
 #include "absl/strings/str_format.h"

@@ -37,7 +37,7 @@
 // This program will be invoked from a Python unit test.  It is
 // expected to fail.  Don't run it directly.
 
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest.h"
 
 #ifdef GTEST_OS_WINDOWS
 #include <stdlib.h>

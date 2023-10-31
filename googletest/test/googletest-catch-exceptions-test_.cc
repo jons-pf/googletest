@@ -35,7 +35,7 @@
 #include <stdio.h>   // NOLINT
 #include <stdlib.h>  // For exit().
 
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest.h"
 
 #if GTEST_HAS_SEH
 #include <windows.h>

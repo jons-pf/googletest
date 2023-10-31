@@ -31,7 +31,7 @@
 // Unit test for gtest_prod.h.
 
 #include "production.h"
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest.h"
 
 // Tests that private members can be accessed from a TEST declared as
 // a friend of the class.

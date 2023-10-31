@@ -73,12 +73,12 @@
 #include <utility>
 #include <vector>
 
-#include "gmock/gmock-actions.h"
-#include "gmock/gmock-cardinalities.h"
-#include "gmock/gmock-matchers.h"
-#include "gmock/internal/gmock-internal-utils.h"
-#include "gmock/internal/gmock-port.h"
-#include "gtest/gtest.h"
+#include "googlemock/include/gmock/gmock-actions.h"
+#include "googlemock/include/gmock/gmock-cardinalities.h"
+#include "googlemock/include/gmock/gmock-matchers.h"
+#include "googlemock/include/gmock/internal/gmock-internal-utils.h"
+#include "googlemock/include/gmock/internal/gmock-port.h"
+#include "googletest/include/gtest/gtest.h"
 
 #if GTEST_HAS_EXCEPTIONS
 #include <stdexcept>  // NOLINT

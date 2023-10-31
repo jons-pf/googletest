@@ -37,9 +37,9 @@
 
 #include <string>
 
-#include "gtest/gtest.h"
-#include "gtest/internal/gtest-filepath.h"
-#include "src/gtest-internal-inl.h"
+#include "googletest/include/gtest/gtest.h"
+#include "googletest/include/gtest/internal/gtest-filepath.h"
+#include "googletest/src/gtest-internal-inl.h"
 
 #ifdef GTEST_OS_WINDOWS_MOBILE
 #include <windows.h>  // NOLINT

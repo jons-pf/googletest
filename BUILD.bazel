@@ -111,12 +111,6 @@ cc_library(
         ":windows": ["windows_export_all_symbols"],
         "//conditions:default": [],
     }),
-    includes = [
-        "googlemock",
-        "googlemock/include",
-        "googletest",
-        "googletest/include",
-    ],
     linkopts = select({
         ":qnx": ["-lregex"],
         ":windows": [],

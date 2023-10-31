@@ -31,7 +31,7 @@
 //
 // This file tests the spec builder syntax.
 
-#include "gmock/gmock-spec-builders.h"
+#include "googlemock/include/gmock/gmock-spec-builders.h"
 
 #include <memory>
 #include <ostream>  // NOLINT
@@ -39,11 +39,11 @@
 #include <string>
 #include <type_traits>
 
-#include "gmock/gmock.h"
-#include "gmock/internal/gmock-port.h"
-#include "gtest/gtest-spi.h"
-#include "gtest/gtest.h"
-#include "gtest/internal/gtest-port.h"
+#include "googlemock/include/gmock/gmock.h"
+#include "googlemock/include/gmock/internal/gmock-port.h"
+#include "googletest/include/gtest/gtest-spi.h"
+#include "googletest/include/gtest/gtest.h"
+#include "googletest/include/gtest/internal/gtest-port.h"
 
 namespace testing {
 namespace {

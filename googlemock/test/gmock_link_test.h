@@ -114,7 +114,7 @@
 #ifndef GOOGLEMOCK_TEST_GMOCK_LINK_TEST_H_
 #define GOOGLEMOCK_TEST_GMOCK_LINK_TEST_H_
 
-#include "gmock/gmock.h"
+#include "googlemock/include/gmock/gmock.h"
 
 #ifndef GTEST_OS_WINDOWS_MOBILE
 #include <errno.h>
@@ -123,8 +123,8 @@
 #include <iostream>
 #include <vector>
 
-#include "gtest/gtest.h"
-#include "gtest/internal/gtest-port.h"
+#include "googletest/include/gtest/gtest.h"
+#include "googletest/include/gtest/internal/gtest-port.h"
 
 using testing::_;
 using testing::A;

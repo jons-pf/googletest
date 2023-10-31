@@ -35,7 +35,7 @@
 #include <tuple>
 
 #include "prime_tables.h"
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest.h"
 namespace {
 
 // Suppose we want to introduce a new, improved implementation of PrimeTable

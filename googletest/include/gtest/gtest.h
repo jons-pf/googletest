@@ -60,18 +60,18 @@
 #include <type_traits>
 #include <vector>
 
-#include "gtest/gtest-assertion-result.h"
-#include "gtest/gtest-death-test.h"
-#include "gtest/gtest-matchers.h"
-#include "gtest/gtest-message.h"
-#include "gtest/gtest-param-test.h"
-#include "gtest/gtest-printers.h"
-#include "gtest/gtest-test-part.h"
-#include "gtest/gtest-typed-test.h"
-#include "gtest/gtest_pred_impl.h"
-#include "gtest/gtest_prod.h"
-#include "gtest/internal/gtest-internal.h"
-#include "gtest/internal/gtest-string.h"
+#include "googletest/include/gtest/gtest-assertion-result.h"
+#include "googletest/include/gtest/gtest-death-test.h"
+#include "googletest/include/gtest/gtest-matchers.h"
+#include "googletest/include/gtest/gtest-message.h"
+#include "googletest/include/gtest/gtest-param-test.h"
+#include "googletest/include/gtest/gtest-printers.h"
+#include "googletest/include/gtest/gtest-test-part.h"
+#include "googletest/include/gtest/gtest-typed-test.h"
+#include "googletest/include/gtest/gtest_pred_impl.h"
+#include "googletest/include/gtest/gtest_prod.h"
+#include "googletest/include/gtest/internal/gtest-internal.h"
+#include "googletest/include/gtest/internal/gtest-string.h"
 
 GTEST_DISABLE_MSC_WARNINGS_PUSH_(4251 \
 /* class A needs to have dll-interface to be used by clients of class B */)

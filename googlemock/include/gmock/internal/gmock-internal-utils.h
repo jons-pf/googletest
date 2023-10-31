@@ -46,8 +46,8 @@
 #include <type_traits>
 #include <vector>
 
-#include "gmock/internal/gmock-port.h"
-#include "gtest/gtest.h"
+#include "googlemock/include/gmock/internal/gmock-port.h"
+#include "googletest/include/gtest/gtest.h"
 
 namespace testing {
 

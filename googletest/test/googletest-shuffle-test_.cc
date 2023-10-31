@@ -29,7 +29,7 @@
 
 // Verifies that test shuffling works.
 
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest.h"
 
 namespace {
 

@@ -29,8 +29,8 @@
 
 #include <iostream>
 
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
+#include "googlemock/include/gmock/gmock.h"
+#include "googletest/include/gtest/gtest.h"
 
 #if defined(GTEST_OS_ESP8266) || defined(GTEST_OS_ESP32) || \
     (defined(GTEST_OS_NRF52) && defined(ARDUINO))

@@ -31,7 +31,7 @@
 //
 // This file tests the internal utilities.
 
-#include "gmock/internal/gmock-internal-utils.h"
+#include "googlemock/include/gmock/internal/gmock-internal-utils.h"
 
 #include <stdlib.h>
 
@@ -43,10 +43,10 @@
 #include <tuple>
 #include <vector>
 
-#include "gmock/gmock.h"
-#include "gmock/internal/gmock-port.h"
-#include "gtest/gtest-spi.h"
-#include "gtest/gtest.h"
+#include "googlemock/include/gmock/gmock.h"
+#include "googlemock/include/gmock/internal/gmock-port.h"
+#include "googletest/include/gtest/gtest-spi.h"
+#include "googletest/include/gtest/gtest.h"
 
 // Indicates that this translation unit is part of Google Test's
 // implementation.  It must come before gtest-internal-inl.h is
@@ -54,7 +54,7 @@
 // prevent a user from accidentally including gtest-internal-inl.h in
 // their code.
 #define GTEST_IMPLEMENTATION_ 1
-#include "src/gtest-internal-inl.h"
+#include "googletest/src/gtest-internal-inl.h"
 #undef GTEST_IMPLEMENTATION_
 
 #ifdef GTEST_OS_CYGWIN

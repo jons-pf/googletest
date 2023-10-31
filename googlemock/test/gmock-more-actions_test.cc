@@ -31,7 +31,7 @@
 //
 // This file tests the built-in actions in gmock-actions.h.
 
-#include "gmock/gmock-more-actions.h"
+#include "googlemock/include/gmock/gmock-more-actions.h"
 
 #include <algorithm>
 #include <functional>
@@ -42,9 +42,9 @@
 #include <tuple>
 #include <vector>
 
-#include "gmock/gmock.h"
-#include "gtest/gtest-spi.h"
-#include "gtest/gtest.h"
+#include "googlemock/include/gmock/gmock.h"
+#include "googletest/include/gtest/gtest-spi.h"
+#include "googletest/include/gtest/gtest.h"
 
 GTEST_DISABLE_MSC_WARNINGS_PUSH_(4577)
 

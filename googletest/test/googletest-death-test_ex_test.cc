@@ -30,8 +30,8 @@
 //
 // Tests that verify interaction of exceptions and death tests.
 
-#include "gtest/gtest-death-test.h"
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest-death-test.h"
+#include "googletest/include/gtest/gtest.h"
 
 #ifdef GTEST_HAS_DEATH_TEST
 
@@ -39,7 +39,7 @@
 #include <windows.h>  // For RaiseException().
 #endif
 
-#include "gtest/gtest-spi.h"
+#include "googletest/include/gtest/gtest-spi.h"
 
 #if GTEST_HAS_EXCEPTIONS
 

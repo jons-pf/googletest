@@ -31,7 +31,7 @@
 // Tests for Google Test itself.  This verifies that the basic constructs of
 // Google Test work.
 
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest.h"
 
 // Verifies that the command line flag variables can be accessed in
 // code once "gtest.h" has been #included.
@@ -70,8 +70,8 @@ TEST(CommandLineFlagsTest, CanBeAccessedInCodeOnceGTestHIsIncluded) {
 #include <utility>
 #include <vector>
 
-#include "gtest/gtest-spi.h"
-#include "src/gtest-internal-inl.h"
+#include "googletest/include/gtest/gtest-spi.h"
+#include "googletest/src/gtest-internal-inl.h"
 
 struct ConvertibleGlobalType {
   // The inner enable_if is to ensure invoking is_constructible doesn't fail.

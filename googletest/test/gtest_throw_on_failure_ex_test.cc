@@ -35,7 +35,7 @@
 
 #include <stdexcept>
 
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest.h"
 
 // Prints the given failure message and exits the program with
 // non-zero.  We use this instead of a Google Test assertion to

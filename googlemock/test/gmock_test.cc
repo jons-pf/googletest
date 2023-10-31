@@ -31,12 +31,12 @@
 //
 // This file tests code in gmock.cc.
 
-#include "gmock/gmock.h"
+#include "googlemock/include/gmock/gmock.h"
 
 #include <string>
 
-#include "gtest/gtest.h"
-#include "gtest/internal/custom/gtest.h"
+#include "googletest/include/gtest/gtest.h"
+#include "googletest/include/gtest/internal/custom/gtest.h"
 
 #if !defined(GTEST_CUSTOM_INIT_GOOGLE_TEST_FUNCTION_)
 

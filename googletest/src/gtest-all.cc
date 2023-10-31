@@ -35,15 +35,15 @@
 
 // This line ensures that gtest.h can be compiled on its own, even
 // when it's fused.
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest.h"
 
 // The following lines pull in the real gtest *.cc files.
-#include "src/gtest-assertion-result.cc"
-#include "src/gtest-death-test.cc"
-#include "src/gtest-filepath.cc"
-#include "src/gtest-matchers.cc"
-#include "src/gtest-port.cc"
-#include "src/gtest-printers.cc"
-#include "src/gtest-test-part.cc"
-#include "src/gtest-typed-test.cc"
-#include "src/gtest.cc"
+#include "googletest/src/gtest-assertion-result.cc"
+#include "googletest/src/gtest-death-test.cc"
+#include "googletest/src/gtest-filepath.cc"
+#include "googletest/src/gtest-matchers.cc"
+#include "googletest/src/gtest-port.cc"
+#include "googletest/src/gtest-printers.cc"
+#include "googletest/src/gtest-test-part.cc"
+#include "googletest/src/gtest-typed-test.cc"
+#include "googletest/src/gtest.cc"

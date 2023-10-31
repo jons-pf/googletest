@@ -32,7 +32,7 @@
 
 #include <iostream>
 
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest.h"
 
 class SetupEnvironment : public testing::Environment {
  public:

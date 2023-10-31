@@ -30,7 +30,7 @@
 // This file tests the internal cross-platform support utilities.
 #include <stdio.h>
 
-#include "gtest/internal/gtest-port.h"
+#include "googletest/include/gtest/internal/gtest-port.h"
 
 #ifdef GTEST_OS_MAC
 #include <time.h>
@@ -44,9 +44,9 @@
 #include <utility>  // For std::pair and std::make_pair.
 #include <vector>
 
-#include "gtest/gtest-spi.h"
-#include "gtest/gtest.h"
-#include "src/gtest-internal-inl.h"
+#include "googletest/include/gtest/gtest-spi.h"
+#include "googletest/include/gtest/gtest.h"
+#include "googletest/src/gtest-internal-inl.h"
 
 using std::make_pair;
 using std::pair;

@@ -31,8 +31,8 @@
 
 #include <exception>
 
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
+#include "googlemock/include/gmock/gmock.h"
+#include "googletest/include/gtest/gtest.h"
 
 #if GTEST_HAS_EXCEPTIONS
 namespace {

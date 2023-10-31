@@ -35,7 +35,7 @@
 
 #include <stdexcept>
 
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest.h"
 
 class ThrowListener : public testing::EmptyTestEventListener {
   void OnTestPartResult(const testing::TestPartResult& result) override {

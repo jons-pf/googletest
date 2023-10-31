@@ -38,9 +38,9 @@
 #include <algorithm>
 #include <string>
 
-#include "gtest/gtest-spi.h"
-#include "gtest/gtest.h"
-#include "src/gtest-internal-inl.h"
+#include "googletest/include/gtest/gtest-spi.h"
+#include "googletest/include/gtest/gtest.h"
+#include "googletest/src/gtest-internal-inl.h"
 
 GTEST_DISABLE_MSC_WARNINGS_PUSH_(4127 /* conditional expression is constant */)
 

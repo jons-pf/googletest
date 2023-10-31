@@ -39,7 +39,7 @@
 #include <ostream>
 #include <string>
 
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest.h"
 
 // Several different test cases and tests that will be listed.
 TEST(Foo, Bar1) {}

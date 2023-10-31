@@ -30,8 +30,8 @@
 // Tests that Google Mock constructs can be used in a large number of
 // threads concurrently.
 
-#include "gmock/gmock.h"
-#include "gtest/gtest.h"
+#include "googlemock/include/gmock/gmock.h"
+#include "googletest/include/gtest/gtest.h"
 
 namespace testing {
 namespace {

@@ -38,7 +38,7 @@
 
 #include <string>
 
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest.h"
 
 #ifdef GTEST_OS_WINDOWS_MOBILE
 #include <windows.h>
@@ -49,7 +49,7 @@
 #include <strings.h>
 #endif  // GTEST_OS_WINDOWS_MOBILE
 
-#include "src/gtest-internal-inl.h"
+#include "googletest/src/gtest-internal-inl.h"
 
 namespace testing {
 namespace internal {

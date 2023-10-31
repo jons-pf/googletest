@@ -32,7 +32,7 @@
 // generators objects produce correct parameter sequences and that
 // Google Test runtime instantiates correct tests from those sequences.
 
-#include "test/googletest-param-test-test.h"
+#include "googletest/test/googletest-param-test-test.h"
 
 #include <algorithm>
 #include <iostream>
@@ -43,8 +43,8 @@
 #include <tuple>
 #include <vector>
 
-#include "gtest/gtest.h"
-#include "src/gtest-internal-inl.h"  // for UnitTestOptions
+#include "googletest/include/gtest/gtest.h"
+#include "googletest/src/gtest-internal-inl.h"  // for UnitTestOptions
 
 using ::std::sort;
 using ::std::vector;

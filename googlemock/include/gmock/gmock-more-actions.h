@@ -40,11 +40,11 @@
 #include <memory>
 #include <utility>
 
-#include "gmock/gmock-actions.h"
-#include "gmock/internal/gmock-port.h"
+#include "googlemock/include/gmock/gmock-actions.h"
+#include "googlemock/include/gmock/internal/gmock-port.h"
 
 // Include any custom callback actions added by the local installation.
-#include "gmock/internal/custom/gmock-generated-actions.h"
+#include "googlemock/include/gmock/internal/custom/gmock-generated-actions.h"
 
 // Sometimes you want to give an action explicit template parameters
 // that cannot be inferred from its value parameters.  ACTION() and

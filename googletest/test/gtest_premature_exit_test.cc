@@ -33,7 +33,7 @@
 
 #include <stdio.h>
 
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest.h"
 
 using ::testing::InitGoogleTest;
 using ::testing::Test;

@@ -30,7 +30,7 @@
 // Tests that a Google Test program that has no test defined can run
 // successfully.
 
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest.h"
 
 int main(int argc, char **argv) {
   testing::InitGoogleTest(&argc, argv);

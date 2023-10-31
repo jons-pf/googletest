@@ -29,7 +29,7 @@
 
 #include "sample4.h"
 
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest.h"
 
 namespace {
 // Tests the Increment() method.

@@ -30,7 +30,7 @@
 //
 // This file implements death tests.
 
-#include "gtest/gtest-death-test.h"
+#include "googletest/include/gtest/gtest-death-test.h"
 
 #include <functional>
 #include <memory>
@@ -39,8 +39,8 @@
 #include <utility>
 #include <vector>
 
-#include "gtest/internal/custom/gtest.h"
-#include "gtest/internal/gtest-port.h"
+#include "googletest/include/gtest/internal/custom/gtest.h"
+#include "googletest/include/gtest/internal/gtest-port.h"
 
 #ifdef GTEST_HAS_DEATH_TEST
 
@@ -85,9 +85,9 @@
 
 #endif  // GTEST_HAS_DEATH_TEST
 
-#include "gtest/gtest-message.h"
-#include "gtest/internal/gtest-string.h"
-#include "src/gtest-internal-inl.h"
+#include "googletest/include/gtest/gtest-message.h"
+#include "googletest/include/gtest/internal/gtest-string.h"
+#include "googletest/src/gtest-internal-inl.h"
 
 namespace testing {
 

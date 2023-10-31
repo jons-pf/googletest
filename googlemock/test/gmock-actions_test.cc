@@ -31,7 +31,7 @@
 //
 // This file tests the built-in actions.
 
-#include "gmock/gmock-actions.h"
+#include "googlemock/include/gmock/gmock-actions.h"
 
 #include <algorithm>
 #include <functional>
@@ -44,11 +44,11 @@
 #include <utility>
 #include <vector>
 
-#include "gmock/gmock.h"
-#include "gmock/internal/gmock-port.h"
-#include "gtest/gtest-spi.h"
-#include "gtest/gtest.h"
-#include "gtest/internal/gtest-port.h"
+#include "googlemock/include/gmock/gmock.h"
+#include "googlemock/include/gmock/internal/gmock-port.h"
+#include "googletest/include/gtest/gtest-spi.h"
+#include "googletest/include/gtest/gtest.h"
+#include "googletest/include/gtest/internal/gtest-port.h"
 
 // Silence C4100 (unreferenced formal parameter) and C4503 (decorated name
 // length exceeded) for MSVC.

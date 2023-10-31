@@ -33,7 +33,7 @@
 #ifndef GOOGLETEST_TEST_PRODUCTION_H_
 #define GOOGLETEST_TEST_PRODUCTION_H_
 
-#include "gtest/gtest_prod.h"
+#include "googletest/include/gtest/gtest_prod.h"
 
 class PrivateCode {
  public:

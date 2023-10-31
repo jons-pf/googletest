@@ -38,7 +38,7 @@
 
 #include <exception>  // for set_terminate
 
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest.h"
 
 // This terminate handler aborts the program using exit() rather than abort().
 // This avoids showing pop-ups on Windows systems and core dumps on Unix-like

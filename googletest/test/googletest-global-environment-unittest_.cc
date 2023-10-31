@@ -32,7 +32,7 @@
 // The program will be invoked from a Python unit test.  Don't run it
 // directly.
 
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest.h"
 
 namespace {
 

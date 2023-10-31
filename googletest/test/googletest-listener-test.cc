@@ -35,8 +35,8 @@
 #include <string>
 #include <vector>
 
-#include "gtest/gtest.h"
-#include "gtest/internal/custom/gtest.h"
+#include "googletest/include/gtest/gtest.h"
+#include "googletest/include/gtest/internal/custom/gtest.h"
 
 using ::testing::AddGlobalTestEnvironment;
 using ::testing::InitGoogleTest;

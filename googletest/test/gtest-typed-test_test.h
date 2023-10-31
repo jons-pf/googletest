@@ -30,7 +30,7 @@
 #ifndef GOOGLETEST_TEST_GTEST_TYPED_TEST_TEST_H_
 #define GOOGLETEST_TEST_GTEST_TYPED_TEST_TEST_H_
 
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest.h"
 
 using testing::Test;
 

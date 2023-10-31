@@ -29,7 +29,7 @@
 
 #include <string>
 
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest.h"
 
 namespace {
 class DummyTest : public ::testing::TestWithParam<const char *> {};

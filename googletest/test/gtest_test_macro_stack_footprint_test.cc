@@ -35,7 +35,7 @@
 // one can put in a single C++ test file.  This test ensures that a large
 // number of TEST()s can be defined in the same translation unit.
 
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest.h"
 
 // This macro defines 10 dummy tests.
 #define TEN_TESTS_(test_case_name) \

@@ -44,8 +44,8 @@
 #include <memory>
 #include <string>
 
-#include "gtest/gtest-matchers.h"
-#include "gtest/internal/gtest-internal.h"
+#include "googletest/include/gtest/gtest-matchers.h"
+#include "googletest/include/gtest/internal/gtest-internal.h"
 
 GTEST_DECLARE_string_(internal_run_death_test);
 

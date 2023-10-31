@@ -35,7 +35,7 @@
 #ifndef GOOGLETEST_TEST_GOOGLETEST_PARAM_TEST_TEST_H_
 #define GOOGLETEST_TEST_GOOGLETEST_PARAM_TEST_TEST_H_
 
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest.h"
 
 // Test fixture for testing definition and instantiation of a test
 // in separate translation units.

@@ -4,8 +4,8 @@
 #include <cstring>
 #include <string>
 
-#include "gtest/gtest.h"
-#include "gtest/internal/gtest-port.h"
+#include "googletest/include/gtest/gtest.h"
+#include "googletest/include/gtest/internal/gtest-port.h"
 
 #if GTEST_HAS_FILE_SYSTEM
 

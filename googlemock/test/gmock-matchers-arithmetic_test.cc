@@ -36,7 +36,7 @@
 #include <memory>
 #include <string>
 
-#include "test/gmock-matchers_test.h"
+#include "googlemock/test/gmock-matchers_test.h"
 
 // Silence warning C4244: 'initializing': conversion from 'int' to 'short',
 // possible loss of data and C4100, unreferenced local parameter

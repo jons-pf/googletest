@@ -52,9 +52,9 @@
 #include <utility>
 #include <vector>
 
-#include "gtest/gtest-printers.h"
-#include "gtest/gtest.h"
-#include "gtest/internal/gtest-port.h"
+#include "googletest/include/gtest/gtest-printers.h"
+#include "googletest/include/gtest/gtest.h"
+#include "googletest/include/gtest/internal/gtest-port.h"
 
 #ifdef GTEST_HAS_ABSL
 #include "absl/strings/str_format.h"

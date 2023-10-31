@@ -31,8 +31,8 @@
 // Tests for Google Test itself.  This verifies that the basic constructs of
 // Google Test work.
 
-#include "gtest/gtest.h"
-#include "test/googletest-param-test-test.h"
+#include "googletest/include/gtest/gtest.h"
+#include "googletest/test/googletest-param-test-test.h"
 
 using ::testing::Values;
 using ::testing::internal::ParamGenerator;

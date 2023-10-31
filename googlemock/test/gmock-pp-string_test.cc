@@ -32,8 +32,8 @@
 // This file tests the internal preprocessor macro library.
 #include <string>
 
-#include "gmock/gmock.h"
-#include "gmock/internal/gmock-pp.h"
+#include "googlemock/include/gmock/gmock.h"
+#include "googlemock/include/gmock/internal/gmock-pp.h"
 
 namespace testing {
 namespace {

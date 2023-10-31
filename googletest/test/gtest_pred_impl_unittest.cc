@@ -47,8 +47,8 @@
 #include <iostream>
 #include <ostream>
 
-#include "gtest/gtest-spi.h"
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest-spi.h"
+#include "googletest/include/gtest/gtest.h"
 
 // A user-defined data type.
 struct Bool {

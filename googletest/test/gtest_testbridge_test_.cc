@@ -30,7 +30,7 @@
 // This program is meant to be run by gtest_test_filter_test.py.  Do not run
 // it directly.
 
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest.h"
 
 // These tests are used to detect if filtering is working. Only
 // 'TestThatSucceeds' should ever run.

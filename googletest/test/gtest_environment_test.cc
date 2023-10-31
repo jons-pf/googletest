@@ -33,8 +33,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include "gtest/gtest.h"
-#include "src/gtest-internal-inl.h"
+#include "googletest/include/gtest/gtest.h"
+#include "googletest/src/gtest-internal-inl.h"
 
 namespace {
 

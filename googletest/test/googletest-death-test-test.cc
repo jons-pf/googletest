@@ -30,9 +30,9 @@
 //
 // Tests for death tests.
 
-#include "gtest/gtest-death-test.h"
-#include "gtest/gtest.h"
-#include "gtest/internal/gtest-filepath.h"
+#include "googletest/include/gtest/gtest-death-test.h"
+#include "googletest/include/gtest/gtest.h"
+#include "googletest/include/gtest/internal/gtest-filepath.h"
 
 using testing::internal::AlwaysFalse;
 using testing::internal::AlwaysTrue;
@@ -59,8 +59,8 @@ using testing::internal::AlwaysTrue;
 #include <sys/time.h>
 #endif  // GTEST_OS_LINUX
 
-#include "gtest/gtest-spi.h"
-#include "src/gtest-internal-inl.h"
+#include "googletest/include/gtest/gtest-spi.h"
+#include "googletest/src/gtest-internal-inl.h"
 
 namespace posix = ::testing::internal::posix;
 

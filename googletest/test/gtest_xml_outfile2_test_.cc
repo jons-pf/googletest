@@ -32,7 +32,7 @@
 
 #include <atomic>
 
-#include "gtest/gtest.h"
+#include "googletest/include/gtest/gtest.h"
 
 class PropertyTwo : public testing::Test {
  protected:

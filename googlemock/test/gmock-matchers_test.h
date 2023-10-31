@@ -57,11 +57,11 @@
 #include <utility>
 #include <vector>
 
-#include "gmock/gmock-matchers.h"
-#include "gmock/gmock-more-matchers.h"
-#include "gmock/gmock.h"
-#include "gtest/gtest-spi.h"
-#include "gtest/gtest.h"
+#include "googlemock/include/gmock/gmock-matchers.h"
+#include "googlemock/include/gmock/gmock-more-matchers.h"
+#include "googlemock/include/gmock/gmock.h"
+#include "googletest/include/gtest/gtest-spi.h"
+#include "googletest/include/gtest/gtest.h"
 
 namespace testing {
 namespace gmock_matchers_test {
